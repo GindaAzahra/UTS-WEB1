@@ -9,7 +9,7 @@ Website ini dibuat untuk kebutuhan UTS Pemograman Website 1
 ![H](assets/H4.png)
 
 # 📷Tampian Detail Informasi
-![D](assets/detaiL.png)
+![D](assets/detail.png)
 
 # 📷Tampian Login
 ![L](assets/log1.png)
