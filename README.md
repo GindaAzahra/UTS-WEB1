@@ -30,4 +30,4 @@ Website ini dibuat untuk kebutuhan UTS Pemograman Website 1
 ![C](assets/delete_dataCRUD.png)
 
 ## 🔗 Website Saya
-[Klik di sini untuk membuka website](https://gindaazahra.github.io/UTS-WEB1/)
+[Klik di sini untuk membuka website](https://gindaazahra.github.io/frontend/)
