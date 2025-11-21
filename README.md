@@ -3,7 +3,7 @@ Project Ginzz Fashion adalah website sederhana bertema soft pink yang menampilka
 Website ini dibuat untuk kebutuhan UTS Pemograman Website 1
 
 # 📷Tampian Halaman Utama 
-
+![h](assets/H1.png)
 # 📷Tampian Detail Informasi
 
 # 📷Tampian Login
