@@ -1,0 +1,136 @@
+/* ==== Custom Font Global ==== */
+body {
+  font-family: "Playfair Display", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Warna tema --- */
+:root{
+  --pink: #ff7eb6;
+  --pink-soft: #ffe6f0;
+  --pink-dark: #d04378;
+  --muted: #6c6c6c;
+}
+
+/* Background umum */
+.bg-pink-soft {
+  background: linear-gradient(180deg, #fff 0%, var(--pink-soft) 100%);
+  min-height: 100vh;
+}
+
+/* Navbar / Brand */
+.brand-logo {
+  height: 36px;
+  object-fit: contain;
+}
+.brand-title {
+  color: var(--pink-dark);
+  font-size: 1.1rem;
+}
+
+/* Buttons */
+.btn-pink {
+  background: var(--pink);
+  border: none;
+  color: white;
+}
+.btn-outline-pink {
+  color: var(--pink-dark);
+  border-color: var(--pink);
+  background: transparent;
+}
+
+/* Banner card */
+.banner-card img {
+  height: 320px;
+  object-fit: cover;
+}
+.banner-caption {
+  background: linear-gradient(180deg, rgba(255,255,255,0.0), rgba(255,255,255,0.9));
+}
+
+/* Page title */
+.page-title {
+  text-align: center;
+  margin-top: 18px;
+  font-weight: 700;
+  color: var(--pink-dark);
+}
+
+/* Info cards */
+.info-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.info-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+.info-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* Login/Register box */
+.login-box {
+  width: 380px;
+  max-width: 92%;
+  padding: 30px;
+  background: linear-gradient(180deg,#fff, #fff9fb);
+  margin: 70px auto;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(208, 64, 120, 0.08);
+}
+
+/* custom-card used in home */
+.custom-card {
+  background: #fff;
+  border-radius: 12px;
+}
+
+/* Footer */
+.footer-fixed {
+  position: relative;
+}
+
+/* Typography smaller adjustments */
+.lead {
+  color: var(--muted);
+}
+
+/* ----------------------------- */
+/*        PRODUCT CARD CSS       */
+/* ----------------------------- */
+
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Dashboard tweaks */
+.card p.small { color: var(--muted); }
+.custom-card h2 { font-size: 1.6rem; }
+@media (max-width: 576px) {
+  .custom-card { padding: 20px; }
+}
+
+/* Small responsive fixes */
+@media (max-width: 768px) {
+  .product-card img { height: 180px; }
+}

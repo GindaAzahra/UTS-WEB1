@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Menu Utama - Ginzz Fashion</title>
+
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-pink-soft">
+
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/logo.png" alt="Ginzz Fashion" class="brand-logo me-2">
+        <span class="fw-bold brand-title">Ginzz Fashion</span>
+      </a>
+
+      <div class="ms-auto d-flex align-items-center" id="navUserArea">
+        <a href="index.html" class="btn btn-outline-pink me-2">Informasi</a>
+        <button id="logoutBtn" class="btn btn-outline-pink">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mt-4">
+    <div id="welcome" class="custom-card p-4 shadow-sm rounded-4">
+      <!-- diisi oleh JS -->
+    </div>
+
+    <!-- QUICK ACTIONS -->
+    <div class="row mt-4 g-3">
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <h6 class="fw-bold">Lihat Produk</h6>
+          <p class="small text-muted">Jelajahi koleksi terbaru Ginzz Fashion</p>
+          <a href="detail.html?id=3" class="btn btn-pink btn-sm">Buka Produk</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <h6 class="fw-bold">Hubungi CS</h6>
+          <p class="small text-muted">Butuh bantuan? Hubungi customer service kami</p>
+          <a href="detail.html?id=4" class="btn btn-outline-pink btn-sm">Hubungi</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <h6 class="fw-bold">Informasi Perusahaan</h6>
+          <p class="small text-muted">Profil, visi & misi, FAQ, testimoni</p>
+          <a href="index.html" class="btn btn-outline-pink btn-sm">Lihat Informasi</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <h5 class="fw-bold">Aktivitas Terakhir</h5>
+      <ul class="list-group">
+        <li class="list-group-item">Tidak ada aktivitas terbaru.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="text-center mt-5 p-3 bg-white">
+    @Copyright by 23552011281_Ginda Azahra_TIF RP 23CNS B
+  </footer>
+
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
