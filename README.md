@@ -1,1 +1,13 @@
-# UTS-WEB1
+# 🎀 Ginzz Fashion
+Project Ginzz Fashion adalah website sederhana bertema soft pink yang menampilkan berbagai produk fashion seperti baju, sepatu, dan tas.
+Website ini dibuat untuk kebutuhan UTS Pemograman Website 1
+
+# 📷Tampian Halaman Utama 
+
+# 📷Tampian Detail Informasi
+
+# 📷Tampian Login
+
+# 📷Tampian Register
+
+# 📷Tampian Dashboar Setelah Login 
