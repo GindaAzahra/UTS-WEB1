@@ -28,6 +28,3 @@ Website ini dibuat untuk kebutuhan UTS Pemograman Website 1
 ![C](assets/update_dataCRUD.png)
 ![C](assets/insert_dataCRUD.png)
 ![C](assets/delete_dataCRUD.png)
-
-## 🔗 Website Saya
-[Klik di sini untuk membuka website](https://gindaazahra.github.io/frontend/)
